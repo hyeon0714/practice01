@@ -8,13 +8,13 @@ public class Ex07 {
 		/*
 		다음 코드에서 변수로 사용할 수 없는 경우 이유를 작성하세요.
 		
-		int=true;
-		int=#_of_workers;
-		int=countOfLetterslnString;
-		int=1stLevel1;
-		int=person#;
-		int=_person;
-		
+			int true;		--> true는 예약어이므로 사용할 수 없고 예약어가 아닌 그외의 단어를 사용해야한다.
+			int #_of_workers;	--> 특수문자를 사용할 수 없다.
+			int countOfLettersInString;
+			int 1stLevel1;		--> 변수 이름의 맨 앞에 숫자 사용이 불가 하다.
+			int person#;		--> 특수문자를 사용할 수 없다.
+			int _person;
+			
 		int는 정수형의 값만 다룰수 있다
 		*/
 	}
